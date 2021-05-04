@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.container {
+  width: 550px;
+  height: 350px;
+  justify-content: center;
+  display: flex;
+
+  margin-top: 6rem;
+
+  box-shadow: 2px 4px 20px -6px rgba(0, 0, 0, 0.5);
+}
+.product-img {
+  background-position: center;
+  background-size: cover;
+  flex: 70%;
+}
+.product-desc {
+  flex: 50%;
+  padding: 20px;
+  text-align: left;
+  background-color: #353535;
+  color: #e0e0e0;
+  letter-spacing: 1.5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.product-desc h1 {
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 40px;
+}
+.product-desc h2 {
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 50px;
+}
+.product-desc p {
+  font-weight: 100;
+  line-height: 20px;
+  font-size: 13px;
+}
+.product-desc i {
+  color: yellow;
+  margin: 25px 0;
+}
+.product-desc button {
+  padding: 10px 15px;
+  box-sizing: border-box;
+  border: 1.5px solid #f2af00;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #e0e0e0;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  transition: 0.3s;
+}
+.product-desc button:hover {
+  background-color: white;
+  color: black;
+}
